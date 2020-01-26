@@ -8,6 +8,7 @@ body {
   max-width: 1024px;
   width: 100%;
   padding: 32px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 769px) {
@@ -19,6 +20,7 @@ body {
 .about-me {
   padding: 0;
   list-style-type: none;
+  box-sizing: border-box;
 }
 
 a {
