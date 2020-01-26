@@ -1,0 +1,26 @@
+body {
+  background: #C0C0C0;
+  font-family: monospace;
+}
+
+.wrapper {
+  font-size: 18px;
+  max-width: 1024px;
+  width: 100%;
+  padding: 32px;
+}
+
+@media (min-width: 769px) {
+  .wrapper {
+    padding: 64px;
+  }
+}
+
+.about-me {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: #000000;
+}
